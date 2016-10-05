@@ -285,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'SojcLCGQ4S6FFzIuo4EgLWXO7Jbmnmfb_UaN9WN6QUb365bSy4vC7AqjRAXKoxny9iXU1sLq7Q';
 
 /**
  * Deployment identifier.
@@ -723,3 +723,15 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 if (file_exists('/var/www/site-php')) {
   require('/var/www/site-php/d8lessons/d8lessons-settings.inc');
 }
+$databases['default']['default'] = array (
+  'database' => 'd8lessons',
+  'username' => 'root',
+  'password' => 'root',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['install_profile'] = 'standard';
+$config_directories['sync'] = 'sites/default/files/config_-MwdV3xuRQsNjBpTV-b4FNQkiCHHB18MR4-HEAHNaHtU8SoifIvu34CvdPu8HDOFNovMEmQZqQ/sync';
