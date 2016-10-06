@@ -1,0 +1,12 @@
+page_example_description:
+  path: '/page_example'
+  defaults:
+    _controller: 'Drupal\page_example\Controller\PageExampleController::description'
+  requirements:
+    _permission: 'access content'
+page_example_simple:
+  path: '/page_example/simple'
+  defaults:
+    _controller: '\Drupal\page_example\Controller\PageExampleController::simple'
+  requirements:
+    _permission: 'access content'

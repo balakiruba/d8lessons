@@ -1,0 +1,9 @@
+page_example.description:
+  title: 'Page Example settings'
+  description: 'A basic module to return hello world'
+  parent: system.admin_reports
+  route_name: page_example_description
+page_example.simple:
+  title: 'Simple - no arguments'
+  route_name: page_example_simple
+  parent: system.admin_reports
