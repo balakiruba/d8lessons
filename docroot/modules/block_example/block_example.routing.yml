@@ -1,0 +1,7 @@
+block_example_form:
+  path: '/block_example/form'
+  defaults:
+    _form: '\Drupal\page_example\Form\ExampleConfigurableTextBlock'
+    _title: 'Demo Block'
+  requirements:
+    _permission: 'access content'
