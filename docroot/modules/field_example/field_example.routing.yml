@@ -1,0 +1,6 @@
+field_example.simple:
+  path: '/fieldexample/simple'
+  defaults:
+    _controller: '\Drupal\field_example\Controller\FieldExampleDefaultController::simple'
+  requirements:
+    _access: 'TRUE'
