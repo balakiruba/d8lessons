@@ -1,0 +1,5 @@
+configform_example_form:
+  title: 'Config Form Example settings'
+  description: 'A basic module to return hello world'
+  parent: system.admin_reports
+  route_name: configform_example_form

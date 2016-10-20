@@ -1,0 +1,7 @@
+configform_example_form:
+  path: '/page_example/configform'
+  defaults:
+    _form: '\Drupal\configform_example\Form\ConfigFormExampleConfigForm'
+    _title: 'Config Form'
+  requirements:
+    _permission: 'access content'
