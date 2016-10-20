@@ -1,0 +1,4 @@
+name: Dependency Injection Example
+type: module
+description: Examples on how to use dependency injection
+core: 8.x
