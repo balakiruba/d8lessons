@@ -1,0 +1,8 @@
+<?php
+function theme_example_theme($existing, $type, $theme, $path) {
+  return [
+    'my_element'=> [
+    'render element' => 'element',
+    ],
+  ];
+}

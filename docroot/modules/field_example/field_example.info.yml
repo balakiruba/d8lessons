@@ -1,0 +1,4 @@
+name: Field Example
+type: module
+description: Example showing how to use fields
+core: 8.x
