@@ -10,3 +10,10 @@ page_example_simple:
     _controller: '\Drupal\page_example\Controller\PageExampleController::simple'
   requirements:
     _permission: 'access content'
+page_example_form:
+  path: '/page_example/form' 
+  defaults:
+    _form: '\Drupal\page_example\Form\PageExampleForm'
+    _title: 'Demo Form'
+  requirements:
+    _permission: 'access content'
